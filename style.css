@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {  background-image: radial-gradient( circle, rgb(233, 187, 195), rgb(155, 187, 202), rgb(252, 159, 213), rgb(122, 163, 187));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+
+header{ padding: 20px;
+     background-image: radial-gradient(  rgb(243, 206, 212), rgb(202, 107, 123));
+    }
+
+nav { background-color: rgb(202, 107, 123); padding: 10px; 
+    
+    
+    
+}
+
+main { min-width: 300px; max-width: 900px; margin: auto;
+}
+img {
+    width: 50%; display: block; margin: auto;
+}
+
+article { background-color: rgb(250, 202, 210);}
+
+footer { background-color:  rgb(202, 107, 123);}
