@@ -6,46 +6,79 @@
     <title>Flores</title>
     <link rel="shortcut icon" href="for.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Great+Vibes&family=Tiny5&display=swap" rel="stylesheet">
 </head>
 <body>
 
    <header>
-    <h1>Qual sua flor favorita</h1>
-    <p> todas gostamos de Flores</p>
+     <div class="container">
+      <h1>Rosaculture</h1>
+      <nav id="menu">
+         <ul>
+         <li>
+            <a href="#about">Sobre loja</a>
+         </li>
+         <li>
+            <a href="#contact">contato</a>
+         </li>
+         </ul>
+      </nav>
+     </div>
    </header>
-
-   <nav>Pedido</nav>
-
-   <nav id="Flores">
-    <a href="#">Cravo</a>
-    <a href="#">Gerbera</a>
-    <a href="#">rosa</a>
-   </nav>
 
    <main>
     <article>
-     <div id="Cravo">
-        <H2>Cravo</H2>
-        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat nostrum sint laborum similique quia iure, ratione, voluptates odio nihil temporibus libero quae excepturi perferendis ad ipsum minus. Obcaecati, quaerat soluta</P>
-        <img src="imagens-flores/cravo/cravo-900.jpg" alt="cravo">
-     </div>
-
-     <div id="Gerbera">
-        <H2>Gerbera</H2>
-            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit error totam eligendi laborum libero quos est porro placeat, in ex, nostrum modi eos quo, at eum! Expedita tempora eaque dolor?</P>
-            <img src="imagens-flores/gerbera/gerbera-900.jpg" alt="gerbera">
-     </div>
-
-     <div id="Rosa">
-        <H2>Rosa</H2>
-        <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quam odio totam eaque exercitationem aspernatur illo aliquam delectus suscipit voluptas. Iste, adipisci omnis. Sapiente iure quisquam veniam, quo quos eaque.</P>
-        <img src="imagens-flores/rosa/rosa-900.jpg" alt="rosa">
-     </div>
+   <section id="about">
+      <div class="container">
+         <img class="store-roses" src="imagens-flores/loja-de-flores.jpg" alt="cravo">
+         <div>  <H2>Sobre loja</H2>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugit vitae hic repudiandae rem dolorem ex, dolores adipisci delectus cum sed autem, non mollitia! Dolorum ad delectus maiores doloribus est.</P>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem facilis quisquam quibusdam, tempore recusandae nobis quos fugit. Corrupti ipsa neque eos consectetur delectus, numquam doloribus, esse, quia illo ex dicta, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit repellat magnam odio saepe qui quasi! Corporis sunt blanditiis hic, facilis, exercitationem dicta iste expedita fuga magni accusamus libero sit nobis?</p>
+         </div>
+      </div>
+   </section>
     </article>
    </main>
+   <section id="contact">
+      <div class="container">
+         <h2>contato</h2>
+      <div class="contact-methods">
+      <div>
+         <h3>Fale conosco</h3>
+         <form>
+            <input type="text" placeholder="Seu Nome" required>
+            <input type="email" placeholder="Seu E-mail"required>
+            <input type="tel"placeholder="Seu contato (Opcional)">
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+         </form>
+      </div>
+      <div>
+         <h3>Nos Aconpanhe nas redes sociais</h3>
+         <ul class="social-link">
+            <li>
+               <a href="Facebook" title="Siga-nos no facebook"><img src="imagens-flores/facebook.png" alt="facebook"></a>
+            </li>
+            <li>
+               <a href="#" title="Siga-nos no facebook"><img src="imagens-flores/instagram.png" alt="Instagram"></a>
+            </li>
+            <li>
+               <a href="#" title="Siga-nos no facebook"><img src="imagens-flores/youtube.png" alt="YouTube"></a>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <h3>Venha até Nos</h3>
+         <p>Rua: JavaScript n 123, - São Paulo - SP</p>
+      </div>
+   </section>
 
    <footer>
-    <p>site ciado por jessica jecosil</p>
+     <div class="container">
+       <p>&copy; Rosaculture - Todos os direitos reservados - 2024</p>
+     </div>
    </footer>
 
 </body>
